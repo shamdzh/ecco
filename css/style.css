@@ -1,4 +1,4 @@
-@import url(c:\Users\ShamDzh\Desktop\Web Projects\HTML, CSS\ecco (Landing)\css\fonts.css);
+@import url(c:\Users\shdzh\Desktop\Web Projects\HTML, CSS\ecco (Landing)\css\fonts.css);
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -170,6 +170,7 @@ li {
             justify-content: space-between;
   }
   .header .header__menu {
+    visibility: hidden;
     background-color: #61564e;
     position: fixed;
     width: 100%;
@@ -183,6 +184,7 @@ li {
     transition: ease 0.3s;
   }
   .header .header__menu.active {
+    visibility: visible;
     top: 0%;
   }
   .header .header__menu nav ul {
@@ -196,6 +198,12 @@ li {
     width: 100%;
     padding: 5px 0 5px 10px;
     font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header .header__inner {
+    padding: 0 15px;
   }
 }
 
@@ -827,7 +835,7 @@ li {
           transform: translateX(-130%);
   z-index: 1;
   color: #c7b299;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .posts .posts__box .slick-next {
@@ -839,7 +847,7 @@ li {
           transform: translateX(130%);
   z-index: 1;
   color: #c7b299;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .posts .slick-arrow {
