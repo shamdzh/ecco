@@ -50,6 +50,8 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .header .header__burger {
@@ -210,7 +212,7 @@ li {
   position: relative;
   height: 100%;
   width: 100%;
-  background: url("./img/wrapper.jpg") no-repeat center;
+  background: url("../img/wrapper.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -277,7 +279,7 @@ li {
   z-index: 1;
   width: 50px;
   height: 80px;
-  background: url("./img/left.png") 0 0 no-repeat;
+  background: url("../img/left.png") 0 0 no-repeat;
 }
 
 .wrapper .slick-next {
@@ -287,7 +289,7 @@ li {
   z-index: 1;
   width: 50px;
   height: 80px;
-  background: url("./img/right.png") 0 0 no-repeat;
+  background: url("../img/right.png") 0 0 no-repeat;
 }
 
 .wrapper .slick-arrow {
@@ -633,7 +635,7 @@ li {
 }
 
 .video {
-  background: url("./img/video.png") no-repeat center;
+  background: url("../img/video.png") no-repeat center;
   background-size: cover;
   padding: 200px 0;
   display: -webkit-box;
@@ -933,7 +935,7 @@ li {
 
 .logos {
   padding: 140px 0 110px 0;
-  background: url("./img/logosbg.png") no-repeat center;
+  background: url("../img/logosbg.png") no-repeat center;
   background-size: cover;
 }
 
